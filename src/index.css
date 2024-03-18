@@ -20,6 +20,7 @@ a {
 }
 
 .navbar {
+  width: 100%;
   text-align: center;
   background: #43a047;
   padding: 20px;
@@ -70,8 +71,10 @@ a {
   
 
 .imagen{
+
+  
   height: 200px;
-  width: 100%;
+  width: 290px;
  
 }
 
@@ -93,7 +96,11 @@ p, h5 {
   text-align: center;
 }
 
-
+.invento{
+  position: relative;
+  margin-bottom: -40px;
+  margin-left: 250px;
+}
 
 
 

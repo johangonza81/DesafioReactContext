@@ -13,7 +13,9 @@ const Carta =({photo}) =>{
 
             
             <div >
+            <div className="invento">    
             {photo.liked ? <IconHeart filled/>: <IconHeart/>}
+            </div>
             <img className="imagen" src={photo.src.medium} alt={photo.title}/>
             </div>
 
